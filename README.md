@@ -1,18 +1,10 @@
-## Getting Started
+Escribe un programa que solicite al usuario un número entero positivo n y genere un patrón numérico en forma de triángulo. El patrón debe seguir una secuencia donde cada línea comienza con el número de línea y aumenta hasta n, y luego disminuye hasta el número de línea nuevamente.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+**Ejemplo de salida para n = 5:**
+Para realizar el anterior ejercicio debes sefuir los siguienntes pasos
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Pide al usuario un número 
+Verifica que n sea positivo. En llegado caso no sea asi se mostrara un mensaje de error indicando que asi no es
+Si el numero es positivo, genera el patrón:
+Imprime números ascendentes desde el número de la fila hasta n.
+Luego imprime los números descendentes de vuelta hasta el número de la fila, ya para no que siga el mismo patrón y para finalizar se imprime cada fila con un salto de línea.
